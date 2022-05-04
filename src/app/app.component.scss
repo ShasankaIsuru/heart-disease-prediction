@@ -1,0 +1,142 @@
+.nav {
+    background-color: #fc7878;
+    padding: 15px;
+    h5 {
+        margin-bottom: 0;
+        color: #fff;
+    }
+}
+.main-body {
+    display: flex;
+    position: fixed;
+    width: 100%;
+.app-body {
+    background-color: #f6f6f6;
+    padding: 15px;
+    min-height: 100vh;
+    .form-body {
+        background-color: #fff;
+        padding: 10px 15px 20px;
+        // border: 2px solid #dedede;
+    }
+    .form-group {
+        label {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        input, select {
+            line-height: 1.1;
+            font-size: 13px;
+        }
+    }
+    .btn-danger {
+        min-width: 200px;
+        min-height: 80px;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+}
+.right-side {
+    // background-image: url('../assets/nurse.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    padding: 15px;
+    h5 {
+        color: #d54f50;
+    }
+    .loading {
+        text-align: center;
+        img {
+            width: 50%;
+        }
+    }
+    .good, .middle, .bad {
+        text-align: center;
+        img {
+            width: 80%;
+        }
+        p {
+            font-size: 25px;
+            width: auto;
+        }
+    }
+    .good p {
+        color: #2dc100;
+    }
+    .middle p {
+        color: #ff7e04;
+    }
+    .bad p {
+        color: #d54f50;
+    }
+    .heart-rate {
+        width: 150px;
+        height: 73px;
+        position: relative;
+        margin: 20px auto;
+      }
+      
+      .fade-in {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        top: 0;
+        right: 0;
+        animation: heartRateIn 2.5s linear infinite;
+      }
+      
+      .fade-out {
+        position: absolute;
+        width: 120%;
+        height: 100%;
+        top: 0;
+        left: -120%;
+        animation: heartRateOut 2.5s linear infinite;
+        background: rgba(255, 255, 255, 1);
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 100%);
+      }
+      
+      @keyframes heartRateIn {
+        0% {
+          width: 100%;
+        }
+        50% {
+          width: 0;
+        }
+        100% {
+          width: 0;
+        }
+      }
+      
+      @keyframes heartRateOut {
+        0% {
+          left: -120%;
+        }
+        30% {
+          left: -120%;
+        }
+        100% {
+          left: 0;
+        }
+      }
+}
+}
+.footer-tag {
+    background-color: #333;
+    font-size: 12px;
+    color: #f6f6f6;
+    padding: 0 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    span {
+        float: right;
+        margin: 0 10px;
+    }
+}
