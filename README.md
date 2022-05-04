@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Authors
 
-shas.uiux@gmail.com | bwalpita@gmail.com | lahirup100@gmail.com | janakkavinda@gmail.com
+shas.uiux@gmail.com | bwalpita@gmail.com | lahirup100@gmail.com | janakkavinda@gmail.com | senanikonara@gmail.com
